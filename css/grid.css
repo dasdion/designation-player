@@ -1,0 +1,45 @@
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-7, .grid-8, .grid-9, .grid-10, .grid-11, .grid-12 {
+	float:left;
+	padding-right:3%;
+}
+
+.grid-1{ width: 5.5%;}
+.grid-2{ width: 11%;}
+.grid-3{ width: 16.5%;}
+.grid-4{ width: 22%;}
+.grid-5{ width: 27.5%;}
+.grid-6{ width: 33%;}
+.grid-7{ width: 38.5%;}
+.grid-8{ width: 44%;}
+.grid-9{ width: 49.5%;}
+.grid-10{ width: 55%;}
+.grid-11{ width: 60.5%;}
+.grid-12{ width: 66%;}
+
+.last {padding-right:0;}
+
+.clearfix:before,
+.clearfix:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.clearfix {
+    *zoom: 1;
+}
+
+.row {
+	width:100%;
+}
+
+.container {
+	width:1200px;
+}
